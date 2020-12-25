@@ -1,13 +1,69 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify all;
+}
+.second_div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify all;
+}
+
+.heading {
+  padding: 15px;
+  color: red;
+  font-size: 40px;
+}
+.design {
+  font-size: 20px;
+}
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+.nav-item {
+  display: flex;
+  justify-content: right;
+}
+
+
+.btn {
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.fav_div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify all;
+  margin-top: 200px;
+
+}
+a.menu-active {
+  font-weight: bold;
+  color: palevioletred;
+  text-decoration: none;
 }
